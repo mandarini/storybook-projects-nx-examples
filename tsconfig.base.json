@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@story-test/nglib": ["libs/nglib/src/index.ts"],
+      "@story-test/rlv1": ["libs/rlv1/src/index.ts"],
+      "@story-test/rlw1": ["libs/rlw1/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
