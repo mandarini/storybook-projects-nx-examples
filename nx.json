@@ -76,6 +76,12 @@
       "style": "css",
       "linter": "eslint",
       "unitTestRunner": "vitest"
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "css",
+        "linter": "eslint"
+      }
     }
   }
 }
